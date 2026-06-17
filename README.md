@@ -17,13 +17,13 @@
 **希望大家可以一起圆梦！**
 <br>
 
-[项目概述](#项目概述) · [结构设计及功能](#🎯二.硬件设计及功能展示) · [声明](#四.开源说明) · [资料下载](https://github.com/buke18/robomaster-soldier-robot/releases#资料包下载)
+[项目概述](#section1) · [结构设计及功能](#section2) · [声明](#section3) · [资料下载](https://github.com/buke18/robomaster-soldier-robot/releases#资料包下载)
 
 </div>
 
 
 
-## 📋 项目概述
+## 📋 项目概述<a id="section1"></a>
 👋 各位 RoboMaster 同仁、嵌入式与机甲爱好者大家好！
 本项目由 RM 老兵倾力打造，低成本全向轮步兵机器人，整机结构、硬件电路、控制代码均完成实机调试。兼顾性价比、实用性与拓展性，既是个人机甲创作、技术研究的优质载体，也是高校战队新人实训、校内新生赛的标准参赛机型。
 
@@ -43,7 +43,7 @@
 <div align=center><img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/a8a6ade9-dcee-493b-9e9e-668b12611028" />
 <div align=left>
   
-## 🎯二.硬件设计及功能展示
+## 🎯二.硬件设计及功能展示<a id="section2"></a>
 整套硬件采用模块化分体设计，各功能板独立开发、分工明确，布线简洁、维护方便，同时降低复刻与二次开发难度。
 
 **1.遥控器**
@@ -120,7 +120,7 @@
 <div align=center><img width="692" height="401" alt="image" src="https://github.com/user-attachments/assets/c6005652-7dea-4a67-9b6c-64492c6d1e8d" />
 <div align=left>
   
-## 四.开源说明
+## 四.开源说明<a id="section3"></a>
 本项目为全开源项目，面向所有 RoboMaster 爱好者、在校战队、嵌入式开发者免费开放，所有资料仅供学习、交流、非商业用途使用。
 [资料下载](https://github.com/buke18/robomaster-soldier-robot/releases#资料包下载)
 **1.结构文件**
