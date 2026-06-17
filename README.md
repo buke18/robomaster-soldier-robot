@@ -16,7 +16,7 @@
 **圆梦青春！**
 <br>
 
-[项目概述](https://github.com/buke18/robomaster-soldier-robot/edit/main/README.md#-%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0#项目概述) · [结构设计及功能](https://github.com/buke18/robomaster-soldier-robot/edit/main/README.md#%E4%BA%8C%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%8F%8A%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA#结构设计及功能) · [声明](https://github.com/buke18/robomaster-soldier-robot/edit/main/README.md#%E5%9B%9B%E5%BC%80%E6%BA%90%E8%AF%B4%E6%98%8E#四.开源说明) · [资料下载](https://github.com/buke18/robomaster-soldier-robot/releases#资料包下载)
+[项目概述](https://github.com/buke18/robomaster-soldier-robot/main/README.md#-%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0#项目概述) · [结构设计及功能](https://github.com/buke18/robomaster-soldier-robot/main/README.md#%E4%BA%8C%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%8F%8A%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA#结构设计及功能) · [声明](https://github.com/buke18/robomaster-soldier-robot/main/README.md#%E5%9B%9B%E5%BC%80%E6%BA%90%E8%AF%B4%E6%98%8E#四.开源说明) · [资料下载](https://github.com/buke18/robomaster-soldier-robot/releases#资料包下载)
 
 </div>
 
