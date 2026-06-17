@@ -17,7 +17,7 @@
 | 发射摩擦轮 | ✅ | 1806 无刷电机，搭配聚氨酯包胶轮提升摩擦力 |
 | 拨弹送弹机构 | ✅ | TT 减速马达 |
 
-<img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/a8a6ade9-dcee-493b-9e9e-668b12611028" />
+<div align=center><img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/a8a6ade9-dcee-493b-9e9e-668b12611028" />
 
 - **实时预览**: 支持实时Markdown预览
 - **语法高亮**: 完整的语法高亮支持
@@ -31,70 +31,70 @@
 > 主控芯片：STM32F103C8T6
 通过 ADC 外设采集摇杆模拟量信号，输入捕获读取编码器数值，配合轮询方式扫描实体按键；整合全部操控指令后，依靠 NRF2401 无线模块向外广播数据。设备搭载双路 NRF2401 无线模块，一路专用于下发遥控指令，另一路负责接收裁判系统数据，实现整机与上位机稳定通信。通过 ADC 外设采集摇杆模拟量信号，输入捕获读取编码器数值，配合轮询方式扫描实体按键；整合全部操控指令后，依靠 NRF2401 无线模块向外广播数据。设备搭载双路 NRF2401 无线模块，一路专用于下发遥控指令，另一路负责接收裁判系统数据，实现整机与上位机稳定通信。
 
-<img width="691" height="332" alt="image" src="https://github.com/user-attachments/assets/f8b274f4-7ff9-400c-ba85-44c9dac76581" />
-<img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/4ddbdba4-b732-43e4-83d1-62fa985c9beb" />
+<div align=center><img width="691" height="332" alt="image" src="https://github.com/user-attachments/assets/f8b274f4-7ff9-400c-ba85-44c9dac76581" />
+<div align=center><img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/4ddbdba4-b732-43e4-83d1-62fa985c9beb" />
 
 
 **2.云台主控**
 
 > 主控芯片：STM32F407VET6
 板载 BMI055 六轴陀螺仪、IST8310 三轴磁力计，完成高精度姿态解算；通过 NRF2401 接收遥控器指令，实现云台姿态与位置闭环控制。主控板与 Pitch 轴无刷电机之间采用串口协议通信，数据传输稳定可靠。板载 BMI055 六轴陀螺仪、IST8310 三轴磁力计，完成高精度姿态解算；通过 NRF2401 接收遥控器指令，实现云台姿态与位置闭环控制。主控板与 Pitch 轴无刷电机之间采用串口协议通信，数据传输稳定可靠。
-<img width="691" height="346" alt="image" src="https://github.com/user-attachments/assets/e9dccfb7-7fca-477d-a884-cc6704cec30b" />
-<img width="692" height="343" alt="image" src="https://github.com/user-attachments/assets/f5fb34c4-938c-4499-8b53-a693d66b7191" />
+<div align=center><img width="691" height="346" alt="image" src="https://github.com/user-attachments/assets/e9dccfb7-7fca-477d-a884-cc6704cec30b" />
+<div align=center><img width="692" height="343" alt="image" src="https://github.com/user-attachments/assets/f5fb34c4-938c-4499-8b53-a693d66b7191" />
 
 
 **3.底盘主控**
 > 主控芯片：STM32F407VET6
 硬件配置、姿态解算方案与云台主控保持一致，依托 NRF2401 无线模块接收遥控指令，完成底盘运动与姿态闭环控制。主控板与 Yaw 轴无刷电机通过串口进行数据交互，协同实现全向移动与云台联动。硬件配置、姿态解算方案与云台主控保持一致，依托 NRF2401 无线模块接收遥控指令，完成底盘运动与姿态闭环控制。主控板与 Yaw 轴无刷电机通过串口进行数据交互，协同实现全向移动与云台联动。
-<img width="692" height="519" alt="image" src="https://github.com/user-attachments/assets/94f0daa6-0752-4d6f-b2e7-53b55ff1220e" />
-<img width="693" height="335" alt="image" src="https://github.com/user-attachments/assets/b5dd0aca-8fd4-4ee4-9127-4e9febdf1a10" />
+<div align=center><img width="692" height="519" alt="image" src="https://github.com/user-attachments/assets/94f0daa6-0752-4d6f-b2e7-53b55ff1220e" />
+<div align=center><img width="693" height="335" alt="image" src="https://github.com/user-attachments/assets/b5dd0aca-8fd4-4ee4-9127-4e9febdf1a10" />
 
 
 **4.发射机构控制板**
 > 主控芯片：STM32F103C8T6
 板载多路驱动外设，功能划分清晰：输出四路 PWM 信号驱动电调，精准控制摩擦轮转速；单路 PWM 控制发射灯条灯光效果；集成 TB6612 直流电机驱动芯片，驱动 TT 马达运转，灵活调节拨弹盘送弹速度。板载多路驱动外设，功能划分清晰：输出四路 PWM 信号驱动电调，精准控制摩擦轮转速；单路 PWM 控制发射灯条灯光效果；集成 TB6612 直流电机驱动芯片，驱动 TT 马达运转，灵活调节拨弹盘送弹速度。
-<img width="692" height="519" alt="image" src="https://github.com/user-attachments/assets/51affd6d-3243-401d-a7a0-48cc97b29c85" />
-<img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/9217e6c9-f2b5-462f-9fd6-3d345b8205a5" />
+<div align=center><img width="692" height="519" alt="image" src="https://github.com/user-attachments/assets/51affd6d-3243-401d-a7a0-48cc97b29c85" />
+<div align=center><img width="691" height="518" alt="image" src="https://github.com/user-attachments/assets/9217e6c9-f2b5-462f-9fd6-3d345b8205a5" />
 
 
 **5.裁判系统控制板**
 > 主控芯片：STM32F103C8T6
 专负责整机裁判系统相关功能，包含装甲灯效控制、击打检测、血量统计三大核心功能。每块装甲板四角搭载微动开关，通过读取 IO 口电平变化识别击打状态、累计击打次数，并将数据回传至遥控器，配合上位机完成实时血量统计。可编程灯效，可高度复刻标准 RM 装甲板灯光逻辑。专负责整机裁判系统相关功能，包含装甲灯效控制、击打检测、血量统计三大核心功能。每块装甲板四角搭载微动开关，通过读取 IO 口电平变化识别击打状态、累计击打次数，并将数据回传至遥控器，配合上位机完成实时血量统计。可编程灯效，可高度复刻标准 RM 装甲板灯光逻辑。
-<img width="692" height="339" alt="image" src="https://github.com/user-attachments/assets/8accd376-5182-416d-b56d-455aef70822b" />
-<img width="692" height="365" alt="image" src="https://github.com/user-attachments/assets/9ad5b520-5172-46b1-924c-8eea80fbd56a" />
+<div align=center><img width="692" height="339" alt="image" src="https://github.com/user-attachments/assets/8accd376-5182-416d-b56d-455aef70822b" />
+<div align=center><img width="692" height="365" alt="image" src="https://github.com/user-attachments/assets/9ad5b520-5172-46b1-924c-8eea80fbd56a" />
 
 
 **6.无刷电机控制板**
 > 采用成熟的 FOC 磁场定向控制 方案，主控为 STM32F103C8T6，外围搭配 DRV8313 三相驱动芯片、INA240 高精度电流采样芯片、AS5600 磁电角度传感器。
 目前已完整开发电流环、速度环、位置环三闭环控制代码，电机默认工作在位置 + 速度双闭环模式，运行平稳、定位精准。目前已完整开发电流环、速度环、位置环三闭环控制代码，电机默认工作在位置 + 速度双闭环模式，运行平稳、定位精准。
-<img width="692" height="514" alt="image" src="https://github.com/user-attachments/assets/9c988c98-6a5c-4a08-9b83-c08ea91ef990" />
-<img width="691" height="274" alt="image" src="https://github.com/user-attachments/assets/4ddde1e7-b944-46b4-8555-3f8fe1ea9f6b" />
+<div align=center><img width="692" height="514" alt="image" src="https://github.com/user-attachments/assets/9c988c98-6a5c-4a08-9b83-c08ea91ef990" />
+<div align=center><img width="691" height="274" alt="image" src="https://github.com/user-attachments/assets/4ddde1e7-b944-46b4-8555-3f8fe1ea9f6b" />
 
 
 **7.装甲板传感器**
 > 灯效部分采用多颗 WS2812B 串行级联，支持多彩动态灯光自定义；装甲四角集成微动开关，模块受撞击时输出高电平信号，为击打检测提供硬件支撑。
-<img width="692" height="395" alt="image" src="https://github.com/user-attachments/assets/815e4af6-cd0b-493e-af45-0c4043c7e633" />
-<img width="692" height="566" alt="image" src="https://github.com/user-attachments/assets/0c6ca532-5928-409c-93a1-52c7bfe13cf6" />
+<div align=center><img width="692" height="395" alt="image" src="https://github.com/user-attachments/assets/815e4af6-cd0b-493e-af45-0c4043c7e633" />
+<div align=center><img width="692" height="566" alt="image" src="https://github.com/user-attachments/assets/0c6ca532-5928-409c-93a1-52c7bfe13cf6" />
 
 
 **8.十轴传感器**
 > 集成多款高性能传感芯片：BMI055 六轴陀螺仪加速度计、IST8310 三轴磁力计、BMP280 气压传感器，所有器件均通过 IIC 总线完成通信与数据读取，集成度高、体积小巧。
-<img width="692" height="376" alt="image" src="https://github.com/user-attachments/assets/2251f897-a23f-4a0a-b5ca-c8065575216f" />
+<div align=center><img width="692" height="376" alt="image" src="https://github.com/user-attachments/assets/2251f897-a23f-4a0a-b5ca-c8065575216f" />
 
 **9.分电板**
 > 整机电源分配专用板卡，实现多路电压输出、为所有主控、电机、传感器稳定供电。
-<img width="650" height="617" alt="image" src="https://github.com/user-attachments/assets/762a6814-b3c0-4cbb-8076-40ba270aa3b9" />
+<div align=center><img width="650" height="617" alt="image" src="https://github.com/user-attachments/assets/762a6814-b3c0-4cbb-8076-40ba270aa3b9" />
 
 **10.发射灯条**
 > 独立式发射机构氛围灯条，由主控板 PWM 驱动，可实现常亮、频闪、爆闪，流水灯等多种灯光效果。
-<img width="691" height="506" alt="image" src="https://github.com/user-attachments/assets/72b74997-064e-4967-a137-cfbfbd21eb30" />
+<div align=center><img width="691" height="506" alt="image" src="https://github.com/user-attachments/assets/72b74997-064e-4967-a137-cfbfbd21eb30" />
 
 ## 三.操作介绍
 整机操控逻辑参照穿越机设计，上手门槛低、操控手感流畅，轻推摇杆即可完成机器人移动、云台瞄准、弹药发射等全部动作。
-<img width="692" height="374" alt="image" src="https://github.com/user-attachments/assets/fdbec25c-c9b2-4f85-83c0-b0afc08984e5" />
+<div align=center><img width="692" height="374" alt="image" src="https://github.com/user-attachments/assets/fdbec25c-c9b2-4f85-83c0-b0afc08984e5" />
 
 整套程序采用模块化分层开发，逻辑清晰、耦合度低，便于调试与功能拓展，下图为项目整体软件架构：
-<img width="692" height="401" alt="image" src="https://github.com/user-attachments/assets/c6005652-7dea-4a67-9b6c-64492c6d1e8d" />
+<div align=center><img width="692" height="401" alt="image" src="https://github.com/user-attachments/assets/c6005652-7dea-4a67-9b6c-64492c6d1e8d" />
 
 ## 四.开源说明
 本项目为全开源项目，面向所有 RoboMaster 爱好者、在校战队、嵌入式开发者免费开放，所有资料仅供学习、交流、非商业用途使用。
